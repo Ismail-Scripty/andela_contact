@@ -1,0 +1,155 @@
+h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: -10px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.flex{
+    display: flex;
+}
+.direction_col{
+    flex-direction: column;
+}
+.direction_row{
+    flex-direction: row;
+}
+.w-100{
+    width: 100%;
+}
+.content-evenly{
+    justify-content: space-evenly;
+}
+.gap-20{
+    gap: 20px;
+}
+#field_container{
+    margin: 10px 0 10px 0;
+}
+.justify-center{
+    justify-content: center;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+#add_new{
+    position: absolute;
+    width: 207px;
+    height: 54px;
+    left: 740px;
+    top: 266px;
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(128, 45, 84, 0.2) 47.92%, rgba(247, 84, 162, 0.2) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box heght */
+    
+    
+    color: #FFFFFF;
+
+}
+.contacts{
+
+background: rgba(224, 7, 111, 0.5);
+border-radius: 15px;
+}
+#full_name{
+    position: absolute;
+width: 442px;
+height: 68px;
+left: 478px;
+top: 211px;
+background: rgba(1, 52, 55, 0.3);
+border-radius: 20px;
+}
+#address{
+    position: absolute;
+    width: 442px;
+    height: 68px;
+    left: 478px;
+    top: 327px;
+    background: rgba(1, 52, 55, 0.3);
+    border-radius: 20px;
+}
+::placeholder{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #FFFFFF;
+opacity: 0.5;
+text-align: center;
+}
+#email{
+    
+    position: absolute;
+    width: 442px;
+    height: 68px;
+    left: 478px;
+    top: 443px;
+ background: rgba(1, 52, 55, 0.3);
+    border-radius: 20px;
+}
+#telephone{
+
+    position: absolute;
+    width: 442px;
+    height: 68px;
+    left: 478px;
+    top: 538px;
+     background: rgba(1, 52, 55, 0.3);
+    border-radius: 20px;
+}
+#btn_save{
+
+    position: absolute;
+    width: 442px;
+    height: 49px;
+    left: 478px;
+    top: 649px;
+     background: #B4105E;
+    border-radius: 10px;
+
+color: #FFFFFF;
+}
+#buildContactCard{
+    
+    background: rgba(224, 7, 111, 0.5);
+    border-radius: 15px;
+}
+.style_12{
+    position: absolute;
+width: 210px;
+height: 100px;
+left: 740px;
+top: 363px;
+
+background: #4D142F;
+border-radius: 15px;
+color: #FFFFFF;
+text-align: center;
+}
+.style_14{
+    position: absolute;
+width: 250px;
+height: 20px;
+left: 125px;
+top: 365px;
+
+background: rgba(224, 7, 111, 0.5);
+border-radius: 15px;
+color: #FFFFFF;
+text-align: center;
+}

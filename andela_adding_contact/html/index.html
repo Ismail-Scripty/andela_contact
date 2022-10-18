@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andera add contact</title>
+  <link rel="stylesheet" href="../css/index.css"/>
+
+</head>
+<body style="background: linear-gradient(180deg, #E0076F 0%, #013437 100%); 
+position: relative;
+width: 1440px;
+height: 1024px;
+">
+<script type="text/javascript" src="../js/index.js"></script>
+<nav class="flex justify-center">
+  <h4> Contacts </h4>
+</nav>
+<main class="">
+  <div id="view_contacts">
+    <div class="flex justify-center mb-50">
+      <button id="add_new"> Add new </button>
+    </div>
+    <div class="flex w-100 justify-between ">
+      <div id="contactList">
+
+      </div>
+      <div id="single_contact_view">
+
+      </div>
+    </div>
+  </div>
+
+  <div id="create_contact_form">
+    <form id="form">
+      <div id="field_container" class="flex direction_col gap-20">
+        <label>
+          <input id="full_name" type="text" placeholder="Full names" name="names"  style="color:white; font-size: 24px;" required />
+        </label>
+        <label>
+          <input id="address" type="text" placeholder="Enter your address" name="address" style="color:white; font-size: 24px;"/>
+        </label>
+        <label>
+          <input id="email" type="email" placeholder="Enter your email" name="email" style="color:white; font-size: 24px;" />
+        </label>
+        <label>
+          <input id="telephone" type="tel" placeholder="+250" name="telephone" style="color:white; font-size: 24px;">
+        </label>
+      </div>
+      <div >
+        <button id="btn_save" type="submit"> Save </button>
+      </div>
+    </form>
+  </div>
+
+
+</main>
+</body>
+</html>
